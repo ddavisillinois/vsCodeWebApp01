@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build-api",
+            "command": "dotnet",
+            "args": ["build", "${workspaceFolder}/apiBackEnd"],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-webapp",
+            "command": "dotnet",
+            "args": ["build", "${workspaceFolder}/vsCodeWebApp01"],
+            "problemMatcher": "$msCompile",
+            "dependsOn": ["build-api"]
+        }
+    ]
+}
