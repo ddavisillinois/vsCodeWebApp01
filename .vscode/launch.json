@@ -7,11 +7,13 @@
         }
     ],
     "configurations": [
+        
         {
             "name": "Launch API",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-api",
+            "justMyCode": false,
             "program": "${workspaceFolder}/apiBackEnd/bin/Debug/net8.0/apiBackEnd.dll",
             "args": [],
             "cwd": "${workspaceFolder}/apiBackEnd",
@@ -22,10 +24,10 @@
             },
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development"
-            },
-            "sourceFileMap": {
-                "/Users/yourname": "${workspaceFolder}"
-            }
+            } //,
+            // "sourceFileMap": {
+            //     "/Users/yourname": "${workspaceFolder}"
+            //}
         },
         {
             "name": "Launch Web App",
@@ -42,10 +44,10 @@
             },
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development"
-            },
-            "sourceFileMap": {
-                "/Users/yourname": "${workspaceFolder}"
-            },
+            }//,
+            // "sourceFileMap": {
+            //     "/Users/yourname": "${workspaceFolder}"
+            //}
         }
     ]
 }
