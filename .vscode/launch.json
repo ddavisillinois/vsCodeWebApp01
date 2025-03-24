@@ -24,10 +24,7 @@
             },
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development"
-            } //,
-            // "sourceFileMap": {
-            //     "/Users/yourname": "${workspaceFolder}"
-            //}
+            } 
         },
         {
             "name": "Launch Web App",
@@ -44,10 +41,7 @@
             },
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development"
-            }//,
-            // "sourceFileMap": {
-            //     "/Users/yourname": "${workspaceFolder}"
-            //}
+            }
         }
     ]
 }
